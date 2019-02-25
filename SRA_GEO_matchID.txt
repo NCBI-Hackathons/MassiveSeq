@@ -1,0 +1,36 @@
+Sample_Name	GO_id	source_name	genotype	tissue	sampling_age
+GSM2794401	C1650	fibroblasts	Control	primary skin fibroblast cells	37 yr
+GSM2794402	C2036	fibroblasts	Control	primary skin fibroblast cells	11 yr
+GSM2794403	C2153	fibroblasts	Control	primary skin fibroblast cells	40 yr
+GSM2794404	C2169	fibroblasts	Control	primary skin fibroblast cells	52 yr
+GSM2794405	C21808	fibroblasts	Control	primary skin fibroblast cells	1 d
+GSM2794406	C2671	fibroblasts	Control	primary skin fibroblast cells	47 yr
+GSM2794407	C288	fibroblasts	Control	primary skin fibroblast cells	64 yr
+GSM2794408	C3348	fibroblasts	Control	primary skin fibroblast cells	10 yr
+GSM2794409	C3652	fibroblasts	Control	primary skin fibroblast cells	24 yr
+GSM2794410	C3956	fibroblasts	Control	primary skin fibroblast cells	27 yr
+GSM2794411	C5879	fibroblasts	Control	primary skin fibroblast cells	48 yr
+GSM2794412	C7492	fibroblasts	Control	primary skin fibroblast cells	17 yr
+GSM2794413	C7522	fibroblasts	Control	primary skin fibroblast cells	19 yr
+GSM2794414	C7525	fibroblasts	Control	primary skin fibroblast cells	22 yr
+GSM2794415	C8399	fibroblasts	Control	primary skin fibroblast cells	19 yr
+GSM2794416	C_UF	fibroblasts	Control	primary skin fibroblast cells	35 yr
+GSM2794417	C_UM	fibroblasts	Control	primary skin fibroblast cells	39 yr
+GSM2794418	F130	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	56 yr
+GSM2794419	F156	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	41 yr
+GSM2794420	F188	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	47 yr
+GSM2794421	F203	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	31 yr
+GSM2794422	F281	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	19 yr
+GSM2794423	F3665	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	13 yr
+GSM2794424	F4078	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	30 yr
+GSM2794425	F4192	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	33 yr
+GSM2794426	F4230	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	28 yr
+GSM2794427	F4259	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	37 yr
+GSM2794428	F4497	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	44 yr
+GSM2794429	F4509	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	36 yr
+GSM2794430	F4627	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	50 yr
+GSM2794431	F4654	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	19 yr
+GSM2794432	F4675	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	28 yr
+GSM2794433	F66	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	70 yr
+GSM2794434	F68	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	21 yr
+GSM2794435	F88	fibroblasts	Friedreich's ataxia	primary skin fibroblast cells	50 yr
