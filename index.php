@@ -16,7 +16,7 @@ error_reporting(E_ALL);
 <hr />
 
 <p>
-Github link: <a href="https://github.com/NCBI-Hackathons/LargeScale_RNAseq_Ataxia">https://github.com/NCBI-Hackathons/LargeScale_RNAseq_Ataxia</a>
+Github link: <a href="https://github.com/NCBI-Hackathons/MassiveSeq">https://github.com/NCBI-Hackathons/MassiveSeq</a>
 </p>
 
 <p>
