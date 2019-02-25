@@ -9,7 +9,7 @@ with open('SraRunTable_noheader.txt') as f:
     for line in f:
         srr = line.find('SRR')
         srrid = line[srr:srr+10]
-        print i, srrid
+        print i, (float(i)/99.0),"%", srrid
         if "SINGLE" in line:
             os.system('./fastq-dump '+srrid)
         elif "PAIRED" in line:
