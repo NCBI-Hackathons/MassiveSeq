@@ -27,6 +27,9 @@ This site: <a href="ec2-52-15-225-63.us-east-2.compute.amazonaws.com/">ec2-52-15
 
 <p>Schedule: <a href="https://docs.google.com/document/d/1Jga7NDVYYy0r5RRZnHnmnTGgQ45lxNq14zKLmjrThkbo/edit#">https://docs.google.com/document/d/1Jga7NDVYYy0r5RRZnHnmnTGgQ45lxNq14zKLmjrThkbo/edit#</a></p>
 
+<p>Our dataset: <a href="https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_8708556_130.14.22.33_5555_1551123025_1902376148_0MetA0_S_HStore&query_key=3">https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_8708556_130.14.22.33_5555_1551123025_1902376148_0MetA0_S_HStore&query_key=3</a></p>
+
+<p>Text file: <a href="SraRunTable.txt" download>SraRunTable.txt</a>; link: <a href="https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_8708556_130.14.22.33_5555_1551123025_1902376148_0MetA0_S_HStore&query_key=3">https://www.ncbi.nlm.nih.gov/Traces/study/?WebEnv=NCID_1_8708556_130.14.22.33_5555_1551123025_1902376148_0MetA0_S_HStore&query_key=3</a></p>
 
 <?php
 // get user IP/browser info
