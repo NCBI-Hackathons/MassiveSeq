@@ -1,0 +1,100 @@
+Run	Experiment	LibraryLayout	Sample_Name	disease	sampling_age	sex	tissue
+SRR8038401	SRX4868962	SINGLE	E35_iso_CNS1	Unaffected		female	CNS
+SRR8038400	SRX4868963	SINGLE	E35_iso_PNS5	Unaffected		female	PNS
+SRR8038399	SRX4868964	SINGLE	E35_iso_PNS4	Unaffected		female	PNS
+SRR8038398	SRX4868965	SINGLE	E35_iso_PNS3	Unaffected		female	PNS
+SRR8038397	SRX4868966	SINGLE	E35_iso_PNS2	Unaffected		female	PNS
+SRR8038396	SRX4868967	SINGLE	3816_iso_CNS1	Friedreich's ataxia		female	CNS
+SRR8038395	SRX4868968	SINGLE	3816_iso_CNS2	Friedreich's ataxia		female	CNS
+SRR8038394	SRX4868969	SINGLE	3816_iso_CNS3	Friedreich's ataxia		female	CNS
+SRR8038393	SRX4868970	SINGLE	FA1_iso_CNS1	carrier Friedreich's ataxia		female	CNS
+SRR8038392	SRX4868971	SINGLE	8333_DMSO_27	Unaffected		male	CNS
+SRR8038391	SRX4868972	SINGLE	8333_109_29	Unaffected		male	CNS
+SRR8038390	SRX4868973	SINGLE	8333_109_30	Unaffected		male	CNS
+SRR8038389	SRX4868974	SINGLE	8333_109_32	Unaffected		male	CNS
+SRR8038388	SRX4868975	SINGLE	FA1_iso_CNS2	carrier Friedreich's ataxia		female	CNS
+SRR8038387	SRX4868976	SINGLE	FA1_iso_CNS3	carrier Friedreich's ataxia		female	CNS
+SRR8038386	SRX4868977	SINGLE	E35_iso_iPSC1	Unaffected		female	iPSCs
+SRR8038385	SRX4868978	SINGLE	E35_iso_iPSC2	Unaffected		female	iPSCs
+SRR8038384	SRX4868979	SINGLE	3816_iso_PNS5	Friedreich's ataxia		female	PNS
+SRR8038383	SRX4868980	SINGLE	E35_iso_iPSC3	Unaffected		female	iPSCs
+SRR8038382	SRX4868981	SINGLE	E35_iso_CNS2	Unaffected		female	CNS
+SRR8038381	SRX4868982	SINGLE	3816_iso_PNS6	Friedreich's ataxia		female	PNS
+SRR8038380	SRX4868983	SINGLE	3816_iso_iPSC2	Friedreich's ataxia		female	iPSCs
+SRR8038379	SRX4868984	SINGLE	3816_iso_iPSC3	Friedreich's ataxia		female	iPSCs
+SRR8038378	SRX4868985	SINGLE	3816_iso_PNS4	Friedreich's ataxia		female	PNS
+SRR8038377	SRX4868986	SINGLE	E35_iso_PNS6	Unaffected		female	PNS
+SRR8038376	SRX4868987	SINGLE	8333_DMSO_26	Unaffected		male	CNS
+SRR2984009	SRX1472989	PAIRED	GSM1968916	Ataxia Telangiectasia			iPSCs
+SRR2984010	SRX1472990	PAIRED	GSM1968917	Ataxia Telangiectasia			iPSCs
+SRR2984011	SRX1472991	PAIRED	GSM1968918	Ataxia Telangiectasia			iPSCs
+SRR2984012	SRX1472992	PAIRED	GSM1968919	Ataxia Telangiectasia			iPSCs
+SRR8038375	SRX4868988	SINGLE	8333_DMSO_25	Unaffected		male	CNS
+SRR8038374	SRX4868989	SINGLE	3816_iso_iPSC1	Friedreich's ataxia		female	iPSCs
+SRR8038373	SRX4868990	SINGLE	Kips_109_21	Unaffected		female	CNS
+SRR8038372	SRX4868991	SINGLE	Kips_DMSO_19	Unaffected		female	CNS
+SRR8038371	SRX4868992	SINGLE	Kips_109_23	Unaffected		female	CNS
+SRR8038370	SRX4868993	SINGLE	Kips_109_22	Unaffected		female	CNS
+SRR8038369	SRX4868994	SINGLE	3816_109_16	Friedreich's ataxia		female	CNS
+SRR8038368	SRX4868995	SINGLE	3816_109_15	Friedreich's ataxia		female	CNS
+SRR8038367	SRX4868996	SINGLE	Kips_DMSO_18	Unaffected		female	CNS
+SRR8038366	SRX4868997	SINGLE	Kips_DMSO_17	Unaffected		female	CNS
+SRR8038365	SRX4868998	SINGLE	E35_iso_PNS1	Unaffected		female	PNS
+SRR8038364	SRX4868999	SINGLE	3816_109_13	Friedreich's ataxia		female	CNS
+SRR8038363	SRX4869000	SINGLE	3816_DMSO_11	Friedreich's ataxia		female	CNS
+SRR8038362	SRX4869001	SINGLE	E35_iso_CNS3	Unaffected		female	CNS
+SRR8038361	SRX4869002	SINGLE	4078_109_8	Friedreich's ataxia		male	CNS
+SRR8038360	SRX4869003	SINGLE	4078_109_6	Friedreich's ataxia		male	CNS
+SRR8038359	SRX4869004	SINGLE	3816_DMSO_10	Friedreich's ataxia		female	CNS
+SRR8038358	SRX4869005	SINGLE	3816_DMSO_9	Friedreich's ataxia		female	CNS
+SRR8038357	SRX4869006	SINGLE	4078_DMSO_3	Friedreich's ataxia		male	CNS
+SRR8038356	SRX4869007	SINGLE	4078_DMSO_2	Friedreich's ataxia		male	CNS
+SRR8038355	SRX4869008	SINGLE	4078_109_5	Friedreich's ataxia		male	CNS
+SRR8038354	SRX4869009	SINGLE	4078_DMSO_4	Friedreich's ataxia		male	CNS
+SRR2984013	SRX1472993	PAIRED	GSM1968920	Ataxia Telangiectasia			iPSCs
+SRR2984014	SRX1472994	PAIRED	GSM1968921	Ataxia Telangiectasia			iPSCs
+SRR5061836	SRX2382335	PAIRED	GSM2410323	Control			"SK-N-SH, control"
+SRR5061837	SRX2382336	PAIRED	GSM2410324	Control			"SK-N-SH, control"
+SRR5061838	SRX2382337	PAIRED	GSM2410325	Control			"SK-N-SH, control"
+SRR5061839	SRX2382338	PAIRED	GSM2410326	Ataxia EBF3 mutation			"SK-N-SH, WT EBF3"
+SRR5061840	SRX2382339	PAIRED	GSM2410327	Ataxia EBF3 mutation			"SK-N-SH, WT EBF3"
+SRR5061841	SRX2382340	PAIRED	GSM2410328	Ataxia EBF3 mutation			"SK-N-SH, WT EBF3"
+SRR5061842	SRX2382341	PAIRED	GSM2410329	Ataxia EBF3 mutation			"SK-N-SH, p.P177L EBF3"
+SRR5061843	SRX2382342	PAIRED	GSM2410330	Ataxia EBF3 mutation			"SK-N-SH, p.P177L EBF3"
+SRR5061844	SRX2382343	PAIRED	GSM2410331	Ataxia EBF3 mutation			"SK-N-SH, p.P177L EBF3"
+SRR5061845	SRX2382344	PAIRED	GSM2410332	Ataxia EBF3 mutation			"SK-N-SH, p.P177L EBF3"
+SRR6078274	SRX3217714	PAIRED	GSM2794401	Control	37 y		primary skin fibroblast cells
+SRR6078275	SRX3217715	PAIRED	GSM2794402	Control	11 y		primary skin fibroblast cells
+SRR6078276	SRX3217716	PAIRED	GSM2794403	Control	40 y		primary skin fibroblast cells
+SRR6078277	SRX3217717	PAIRED	GSM2794404	Control	52 y		primary skin fibroblast cells
+SRR6078278	SRX3217718	PAIRED	GSM2794405	Control	1 d		primary skin fibroblast cells
+SRR6078279	SRX3217719	PAIRED	GSM2794406	Control	47 y		primary skin fibroblast cells
+SRR6078280	SRX3217720	PAIRED	GSM2794407	Control	64 y		primary skin fibroblast cells
+SRR6078281	SRX3217721	PAIRED	GSM2794408	Control	10 y		primary skin fibroblast cells
+SRR6078282	SRX3217722	PAIRED	GSM2794409	Control	24 y		primary skin fibroblast cells
+SRR6078283	SRX3217723	PAIRED	GSM2794410	Control	27 y		primary skin fibroblast cells
+SRR6078284	SRX3217724	PAIRED	GSM2794411	Control	48 y		primary skin fibroblast cells
+SRR6078285	SRX3217725	PAIRED	GSM2794412	Control	17 y		primary skin fibroblast cells
+SRR6078286	SRX3217726	PAIRED	GSM2794413	Control	19 y		primary skin fibroblast cells
+SRR6078287	SRX3217727	PAIRED	GSM2794414	Control	22 y		primary skin fibroblast cells
+SRR6078288	SRX3217728	PAIRED	GSM2794415	Control	19 y		primary skin fibroblast cells
+SRR6078289	SRX3217729	PAIRED	GSM2794416	Control	35 y		primary skin fibroblast cells
+SRR6078290	SRX3217730	PAIRED	GSM2794417	Control	39 y		primary skin fibroblast cells
+SRR6078291	SRX3217731	PAIRED	GSM2794418	Friedreich''s ataxia	56 y		primary skin fibroblast cells
+SRR6078292	SRX3217732	PAIRED	GSM2794419	Friedreich''s ataxia	41 y		primary skin fibroblast cells
+SRR6078293	SRX3217733	PAIRED	GSM2794420	Friedreich''s ataxia	47 y		primary skin fibroblast cells
+SRR6078294	SRX3217734	PAIRED	GSM2794421	Friedreich''s ataxia	31 y		primary skin fibroblast cells
+SRR6078295	SRX3217735	PAIRED	GSM2794422	Friedreich''s ataxia	19 y		primary skin fibroblast cells
+SRR6078296	SRX3217736	PAIRED	GSM2794423	Friedreich''s ataxia	13 y		primary skin fibroblast cells
+SRR6078297	SRX3217737	PAIRED	GSM2794424	Friedreich''s ataxia	30 y		primary skin fibroblast cells
+SRR6078298	SRX3217738	PAIRED	GSM2794425	Friedreich''s ataxia	33 y		primary skin fibroblast cells
+SRR6078299	SRX3217739	PAIRED	GSM2794426	Friedreich''s ataxia	28 y		primary skin fibroblast cells
+SRR6078300	SRX3217740	PAIRED	GSM2794427	Friedreich''s ataxia	37 y		primary skin fibroblast cells
+SRR6078301	SRX3217741	PAIRED	GSM2794428	Friedreich''s ataxia	44 y		primary skin fibroblast cells
+SRR6078302	SRX3217742	PAIRED	GSM2794429	Friedreich''s ataxia	36 y		primary skin fibroblast cells
+SRR6078303	SRX3217743	PAIRED	GSM2794430	Friedreich''s ataxia	50 y		primary skin fibroblast cells
+SRR6078304	SRX3217744	PAIRED	GSM2794431	Friedreich''s ataxia	19 y		primary skin fibroblast cells
+SRR6078305	SRX3217745	PAIRED	GSM2794432	Friedreich''s ataxia	28 y		primary skin fibroblast cells
+SRR6078306	SRX3217746	PAIRED	GSM2794433	Friedreich''s ataxia	70 y		primary skin fibroblast cells
+SRR6078307	SRX3217747	PAIRED	GSM2794434	Friedreich''s ataxia	21 y		primary skin fibroblast cells
+SRR6078308	SRX3217748	PAIRED	GSM2794435	Friedreich''s ataxia	50 y		primary skin fibroblast cells
