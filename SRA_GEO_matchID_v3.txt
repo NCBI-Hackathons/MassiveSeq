@@ -1,0 +1,55 @@
+Run	Experiment	LibraryLayout	Sample_Name	disease	sex	tissue
+SRR8038380	SRX4868983	SINGLE	3816_iso_iPSC2	Friedreich's ataxia	female	iPSCs
+SRR8038386	SRX4868977	SINGLE	E35_iso_iPSC1	Unaffected	female	iPSCs
+SRR8038387	SRX4868976	SINGLE	FA1_iso_CNS3	carrier Friedreich's ataxia	female	CNS
+SRR8038388	SRX4868975	SINGLE	FA1_iso_CNS2	carrier Friedreich's ataxia	female	CNS
+SRR8038389	SRX4868974	SINGLE	8333_109_32	Unaffected	male	CNS
+SRR8038390	SRX4868973	SINGLE	8333_109_30	Unaffected	male	CNS
+SRR8038393	SRX4868970	SINGLE	FA1_iso_CNS1	carrier Friedreich's ataxia	female	CNS
+SRR8038394	SRX4868969	SINGLE	3816_iso_CNS3	Friedreich's ataxia	female	CNS
+SRR8038395	SRX4868968	SINGLE	3816_iso_CNS2	Friedreich's ataxia	female	CNS
+SRR8038396	SRX4868967	SINGLE	3816_iso_CNS1	Friedreich's ataxia	female	CNS
+SRR8038398	SRX4868965	SINGLE	E35_iso_PNS3	Unaffected	female	PNS
+SRR8038399	SRX4868964	SINGLE	E35_iso_PNS4	Unaffected	female	PNS
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
