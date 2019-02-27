@@ -1,0 +1,134 @@
+# borrowing heavily from https://github.com/KoesGroup/Snakemake_hisat-DESeq/blob/master/Snakefile
+
+#########################################
+# Snakemake pipeline for RNA-Seq analysis
+#########################################
+
+
+###########
+# Libraries
+###########
+import pandas as pd
+
+###############
+# Configuration
+###############
+configfile: "config.yml" # where to find parameters
+WORKING_DIR = config["working_dir"]
+RESULT_DIR = config["result_dir"]
+
+# fetch URL to transcriptome multi fasta from configfile
+#genome_url = config["refs"]["genome"]
+#transcriptome_fasta_url = config["refs"]["proteins_fasta"]
+#transcriptome_gtf_url= config["refs"]["transcriptome_gtf"]
+
+########################
+# Samples and conditions
+########################
+
+# read the tabulated separated table containing the sample, condition and fastq file information∂DE
+units = pd.read_table(config["units"], dtype=str).set_index(["Run"], drop=False)
+
+#SAMPLES = [""] #define here
+SAMPLES = units.index.tolist()
+
+#SAMPLES=SAMPLES[:5]
+print(SAMPLES)
+
+#SAMPLES=units
+bams=expand(WORKING_DIR+"mapped/{sample}.bam",sample=SAMPLES)
+###########################
+# Input functions for rules
+###########################
+def get_fastq(wildcards):
+    return units.loc[(wildcards.sample), ["fq1", "fq2"]].dropna()
+
+def get_forward_fastq(wildcards):
+    return units.loc[(wildcards.sample), ["fq1"]].dropna()
+
+def get_reverse_fastq(wildcards):
+    return units.loc[(wildcards.sample), ["fq2"]].dropna()
+
+def get_bams():
+    bams = [b for bam in glob("mapped/*.bam")]
+    return bams
+
+
+#################
+# Desired outputs
+#################
+rule all:
+    input:
+        COUNTS = RESULT_DIR + "counts.txt",
+	SGTF = expand(RESULT_DIR+"{sample}_chr_transcripts.gtf",sample=SAMPLES),
+        ST_MERGE = RESULT_DIR + "stringtie_merged.gtf"
+
+        #DESeq2 = WORKING_DIR + "results/result.csv",
+        #FINAL  = RESULT_DIR + "final.txt"
+    message:
+        "Job done! Removing temporary directory"
+
+#######
+# Rules
+#######
+
+###########################################
+# Create a de novo transcriptome annotation
+###########################################
+
+# merge_bams:
+#    input:
+#        expand(WORKING_DIR + "mapped/{sample}.bam", sample = SAMPLES)
+#    output:
+#        merged = temp(WORKING_DIR + "merged.bam"),
+#        bam_sorted = temp(WORKING_DIR + "merged_sorted.bam")
+#
+#    shell:
+#        """
+#        samtools merge {output.merged} {input}
+#        samtools sort {output.merged} -o {output.bam_sorted}
+#        """
+
+
+
+
+
+        
+rule stringtie:
+    input:
+        bams= WORKING_DIR + "mapped/{sample}.bam"
+    output:
+        tscripts=RESULT_DIR +"{sample}_chr_transcripts.gtf",
+        abund=RESULT_DIR + "{sample}_chr_abundances.tsv"
+
+    threads: 8
+    
+
+    shell:
+        """
+        stringtie -p {threads} -G ~/Homo_sapiens.GRCh38.95.chr.gtf -o {output.tscripts} -A {output.abund} -l {wildcards.sample}_chr {input} &> {wildcards.sample}.stie_err
+        """
+
+rule stringtie_merge:
+    input:
+        gtf=expand(RESULT_DIR+"{sample}_chr_transcripts.gtf",sample=SAMPLES)
+    output:
+        RESULT_DIR + "stringtie_merged.gtf"
+    threads : 8
+
+    shell:
+        """
+        stringtie -p {threads} --merge -G ~/Homo_sapiens.GRCh38.95.chr.gtf -o {output} {input}
+        """
+	
+
+rule fcounts:
+    input:
+        bams= expand(WORKING_DIR + "mapped/{sample}.bam",sample=SAMPLES)
+    output:
+        RESULT_DIR + "counts.txt"
+    threads : 8
+    shell:
+        """
+        ~/subread-1.6.3-Linux-x86_64/bin/featureCounts -T 8 -p -O -t transcript -g gene_id -F 'gtf' -a ~/results/stringtie_merged.gtf -o {output} {input}
+        """
