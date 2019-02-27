@@ -10,6 +10,11 @@ Here is an overview of the proposed pipeline ![pipeline](https://github.com/NCBI
 
 We began by conducting a literature search of all publically deposited Friedreich's Ataxia RNA-seq datasets on SRA. This led to 152 initial samples. We then decided to limit our scope to only human datatests and excluded one small-RNA datasets, as the methods for analyzing smallRNA tend to be fairly different from a "typical" RNA-seq study.
 
+As mentioned in the introduction, we planned the main pipeline in snakemake to automate dispatching of jobs depending on the available cores and memory of a machine (cite). Here, the core steps involved Hisat2 for alignment, followed by Stringtie for transcript annotation and de novo annotation. Finally, reads were quantified using featureCounts from the subRead package (cite). This quantification pipeline follows a common, recently published protocol on Stringtie and Hisat2 (Pertea et al 2016 Nature Protocols).
+
+Once the gene counts were fully quantified for each sample, we analyzed the overall dataset comprised of all 4 studies using the R package metaSeq.  
+
+
 # Results
 
-We have identified some promising truncated transcripts in the current main Friedreich's Ataxia gene, FXN.
+We have identified some promising truncated transcripts in the current main Friedreich's Ataxia gene, FXN. extra vis from the metaseq to come?
