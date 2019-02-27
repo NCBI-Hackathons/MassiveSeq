@@ -15,6 +15,20 @@ As mentioned in the introduction, we planned the main pipeline in snakemake to a
 Once the gene counts were fully quantified for each sample, we analyzed the overall dataset comprised of all 4 studies using the R package metaSeq.  
 
 
+# Running the pipeline
+
+If you are new to Snakemake, you are in for a slight learning curve (it's not tooo bad). It's generally easiest to go with a conda install
+
+```bash
+conda create -n snakemake python=3
+source activate snakemake
+conda install -c bioconda snakemake
+
+#example submission from our ginormous compute  machines on jetstream with 180GB ram and 44 cores
+# if you have slurm/etc, you can distribute with a little extra legwork
+snakemake -j 42 -s Snakefile_massiveseq --keep-going --latency-wait 900
+```
+
 # Results
 
 We have identified some promising truncated transcripts in the current main Friedreich's Ataxia gene, FXN. extra vis from the metaseq to come?
