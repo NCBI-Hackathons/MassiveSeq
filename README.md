@@ -29,6 +29,8 @@ conda install -c bioconda snakemake
 snakemake -j 42 -s Snakefile_massiveseq --keep-going --latency-wait 900
 ```
 
+Separately, once the results come out you can analyze the counts data with "metaseq_ataxia.R" , you'll need the counts.txt file. If you are doing it on a novel dataset, you'll need to generate the study and case/control flags from, for example the SRA sample sheet we began with.
+
 # Results
 
 We have identified some promising truncated transcripts in the current main Friedreich's Ataxia gene, FXN. extra vis from the metaseq to come?
