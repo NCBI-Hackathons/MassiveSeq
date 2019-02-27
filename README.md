@@ -4,6 +4,12 @@ This is a repostory for "massive" RNA-seq to analyze roughly 100 Friedreich's at
 
 # pipeline overview
 
-Here is an overview of the proposed pipeline ![pipeline](https://github.com/NCBI-Hackathons/MassiveSeq/raw/master/MassiveSeq%20Flow%20Diagram%20v3.pdf). The key "guts" of our pipeline is [bcbio](https://bcbio-nextgen.readthedocs.io/en/latest/).
+Here is an overview of the proposed pipeline ![pipeline](https://github.com/NCBI-Hackathons/MassiveSeq/raw/master/MassiveSeq%20Flow%20Diagram%20v3.pdf). The key "guts" of our pipeline is a snakemake program to make the key sequence of mapping-quantification easily parralization within and across compute machines availaible to researchers.
 
-There is also a meta-analysis part, as we are incorportating data from dozens of studies, from multiple tissues. Can we use machine learning (horrible buzzword sighted) to cluster case vs controls across studies, and whether genes in common fall out of that. Can use outlier detection to exclude samples (race will be important confounder).
+# Methods
+
+We began by conducting a literature search of all publically deposited Friedreich's Ataxia RNA-seq datasets on SRA. This led to 152 initial samples. We then decided to limit our scope to only human datatests and excluded one small-RNA datasets, as the methods for analyzing smallRNA tend to be fairly different from a "typical" RNA-seq study.
+
+# Results
+
+We have identified some promising truncated transcripts in the current main Friedreich's Ataxia gene, FXN.
