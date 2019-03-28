@@ -14,6 +14,35 @@ As mentioned in the introduction, we planned the main pipeline in snakemake to a
 
 Once the gene counts were fully quantified for each sample, we analyzed the overall dataset comprised of all 4 studies using the R package metaSeq.  
 
+# Methods v2 (from paper)
+
+We began by conducting a brief literature survey of the Friedreich’s ataxia RNA-seq datasets.  Then, we followed the following steps to download the RNA-seq datasets:
+Steps to get data: 
+
+1.    Search on Google SRA NCBI
+2.    Search ataxia in SRA NCBI
+3.    Click on RNA (367) on left hand side of page
+4.    Click on Homo sapiens (157) on right hand side of page (click on 157)
+5.    Click on Send to
+6.    Click on Run Selector
+7.    Click on Go
+8.    Click on Instrument on the left hand side
+9.    On bottom left hand side, click on illumina hiseq 2000, illumina hiseq 2500, and nextseq 500
+10.    Should see 99 runs found (cases and controls)
+11.    Click on green plus sign on 99 runs found
+12.    Download data by clicking on RunInfo Table
+13.    Open excel file and use default for tab de-limited data to bring in data
+14.    This was main dataset we used to merge with other datasets
+15.    Go to GEO to get information on studies to merge with main data file:     
+            https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104288
+16.    Get count data at this link: 
+            https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104288
+17.       Restructure GEO file so that the gene numbers are rows and IDs are columns
+18.    Then, we merged the datasets using a common variable
+
+We elected to focus on human data and as a result, excluded one dataset that was smallRNA, leaving 4 studies in total and 83 samples (41 samples were controls, 39 were cases; the remaining 3 were parental carriers) in our final dataset.  Next,     we conducted differential analyses using GEO and count datasets in R to compare differences in gene expression between cases and controls.    
+
+
 
 # Running the pipeline
 
